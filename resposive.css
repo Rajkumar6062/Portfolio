@@ -1,0 +1,320 @@
+/* ==============================================
+        Responsive code for MAX-WIDTH  800 px
+============================================== */
+
+@media screen and (max-width:800px) {
+    .mainsection {
+        width: 95%;
+        padding: 25px 0px;
+    }
+
+    #main1 {
+        width: 50%;
+        padding-left: 20px;
+    }
+
+    .main2 {
+        width: 50%;
+    }
+
+    .main2inner {
+        margin: auto;
+        height: 220px;
+        width: 220px;
+    }
+
+ 
+
+    .skill-main {
+        display: grid;
+        padding: 0px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* ==============================================
+        Responsive code for MAX-WIDTH   60 rem  or 960px
+============================================== */
+
+@media screen and (max-width:60em) {
+
+
+    .mobile-navbar-btn {
+        display: block;
+        z-index: 99;
+        color: #ffffff;
+        height: 30px;
+        width: 0px;
+    }
+
+    .header {
+        position: sticky !important;
+        top: 0;
+        z-index: 100;
+        left: 0;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 100vh;
+        min-height: 450px;
+        background-color: #343a40;
+        position: absolute;
+
+        top: 0;
+        left: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    .navbar-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .active .navbar {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+        display: block;
+    }
+
+    .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+        display: block;
+    }
+
+    .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    /* ===========================================
+         Our Main Section Start for MAX-WIDTH   60 rem  or 960px
+=========================================== */
+
+
+    /* ===========================================
+         Our Main Section Start for MAX-WIDTH   60 rem  or 960px
+=========================================== */
+    #about1 {
+        display: none;
+    }
+
+    .about2>h2 {
+        font-size: 7rem;
+        color: black;
+        text-align: center;
+    }
+
+    .about2 {
+        padding: 30px 50px;
+    }
+
+    .information {
+        margin-top: 25px;
+        padding: 0px;
+    }
+
+}
+
+/* ==============================================
+        Responsive code for MAX-WIDTH   600
+============================================== */
+
+@media(max-width:600px) {
+
+    .main2inner {
+        margin: auto;
+        height: 220px;
+        width: 220px;
+    }
+
+}
+
+
+/* ==============================================
+        Responsive code for Mobile Phone  MAX-WIDTH   520 px
+============================================== */
+
+
+@media(max-width:520px) {
+    .mainsection {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: cetner;
+    }
+
+    #main1 {
+        width: 75%;
+        padding-left: 0px;
+    }
+
+    .welcome {
+        font-size: 37px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .hi {
+        margin-top: 15px;
+        padding-left: 22px;
+    }
+
+    .name {
+        margin-top: 5px;
+        text-align: center;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .namecolor {
+        font-size: 40px;
+    }
+
+    #hire-me {
+        display: none;
+    }
+
+    .main2 {
+        width: 95%;
+        margin: 15px 5px;
+    }
+
+    /* ================ About section responsive code for MAX-WIDTH 500PX */
+
+    .about2>p {
+        font-size: 2rem;
+        padding: 0px 30px;
+    }
+
+    .question {
+        padding-left: 13px;
+    }
+
+    #skill-head p {
+        font-size: 2.5rem;
+    }
+
+    /* ================ Contect us section responsive code for MAX-WIDTH 500PX */
+
+    #line {
+        width: 80%;
+    }
+
+    #contect>h2 {
+        padding: 10px;
+    }
+
+    .information {
+        margin: 25px 10px;
+        padding: 0px;
+    }
+
+}
+
+
+
+/* ==============================================
+        Responsive code for Mobile Phone  MAX-WIDTH   420 px
+============================================== */
+@media(max-width:420px){
+    .icon-container{
+        padding:10px 1px;
+
+    }
+    .icon {
+        height: 32px;
+        width: 32px;
+    }
+    .icon i {
+        font-size: 20px;
+    }
+}
+
+
+
+/* ==============================================
+        Responsive code for Mobile Phone  MAX-WIDTH   370 px
+============================================== */
+@media(max-width:370px) {
+
+    .icon {
+        height: 22px;
+        width: 22px;
+    }
+    .icon i {
+        font-size: 15px;
+    }
+    .welcome {
+        font-size: 25px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .hi {
+        margin-top: 1px;
+        padding-left: 22px;
+        font-size: 20px;
+    }
+
+    .name {
+        margin-top: 0px;
+        /* text-align: center; */
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .namecolor {
+        font-size: 32px;
+    }
+
+    .about2>h2 {
+        font-size: 50px;
+    }
+
+    .question {
+        font-size: 17px;
+    }
+
+    .answer {
+        font-size: 19px;
+    }
+
+  
+
+    #skill-head h2, #skill-head h2 span {
+        font-size: 4rem;
+    }
+    #skill-head p {
+        font-size: 20px;
+    }
+
+    .skill-bar .info .percent ,.info p {
+        font-size: 2rem;
+    }
+
+
+
+    #contect>h2 {
+        padding: 0px;
+        font-size: 3rem;
+    }
+}
